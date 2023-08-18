@@ -98,6 +98,7 @@ img {
     .container,
     .input-task,
     .list-tasks,
+    .task,
     .done{
         width: 100%;
     }
