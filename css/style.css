@@ -1,4 +1,4 @@
-
+Ju
 * {
     margin: 0;
     padding: 0;
@@ -101,6 +101,7 @@ img {
     .task,
     .done{
         width: 100%;
+        padding: 3px;
     }
     body{
         width: 80%;
