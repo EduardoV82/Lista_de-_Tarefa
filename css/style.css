@@ -107,4 +107,7 @@ img {
         min-height:85vh;
         margin: 0 auto;
     }
+    .buttom-ask-task{
+        padding-top:3px;
+}
 }
