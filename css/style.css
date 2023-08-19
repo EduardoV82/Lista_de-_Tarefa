@@ -76,7 +76,7 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 img {
@@ -97,8 +97,8 @@ img {
 @media (min-width:220px) and (max-width:768px){
     .container,
     .input-task,
-    .list-tasks,
     .task,
+    .list-tasks,
     .done{
         width: 100%;
     }
@@ -107,6 +107,45 @@ img {
         min-height:85vh;
         margin: 0 auto;
     }
-    .buttom-ask-task{
-        padding:3px;
+    .button-add-task{
+        margin-top: 6px;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container,
+    .input-task,
+    .task,
+    .list-tasks,
+    .done{
+        width: 100%;
+        font-size: 15px;
+    }
+    body{
+        width: 80%;
+        min-height:85vh;
+        margin: 0 auto;
+    }
+    .button-add-task{
+        margin-top: 6px;
+    }
+}
+
+@media (min-width:220px) and (max-width:320px){
+    .container,
+    .input-task,
+    .task,
+    .list-tasks,
+    .done{
+        width: 100%;
+        font-size: 12px;
+    }
+    body{
+        width: 90%;
+        min-height:85vh;
+        margin: 0 auto;
+    }
+    .button-add-task{
+        margin-top: 6px;
+    }
 }
